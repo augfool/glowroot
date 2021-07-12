@@ -96,7 +96,8 @@
     <!-- grpc 1.15.0+ requires Java 7+ -->
     <grpc.version>1.14.0</grpc.version>
     <!-- protobuf 3.6.0+ requires Java 7+ -->
-    <protobuf.version>3.5.1</protobuf.version>
+<!--    <protobuf.version>3.5.1</protobuf.version>-->
+    <protobuf.version>3.17.3</protobuf.version>
     <protoc.version>3.5.1</protoc.version>
     <!-- need to stick to netty version that is used by grpc version above -->
     <netty.version>4.1.27.Final</netty.version>
@@ -484,7 +485,7 @@
         <plugin>
           <groupId>com.github.os72</groupId>
           <artifactId>protoc-jar-maven-plugin</artifactId>
-          <version>3.11.4</version>
+          <version>3.11.1</version>
         </plugin>
         <plugin>
           <groupId>org.sonarsource.scanner.maven</groupId>

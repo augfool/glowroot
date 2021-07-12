@@ -111,6 +111,7 @@
         <groupId>com.github.os72</groupId>
         <artifactId>protoc-jar-maven-plugin</artifactId>
         <configuration>
+          <protocCommand>protoc</protocCommand>
           <protocVersion>${protoc.version}</protocVersion>
           <outputTargets>
             <outputTarget>

@@ -61,6 +61,7 @@
         <groupId>com.github.os72</groupId>
         <artifactId>protoc-jar-maven-plugin</artifactId>
         <configuration>
+          <protocCommand>protoc</protocCommand>
           <protocVersion>${protoc.version}</protocVersion>
           <outputTargets>
             <outputTarget>
@@ -70,6 +71,7 @@
             <outputTarget>
               <type>grpc-java</type>
               <pluginArtifact>io.grpc:protoc-gen-grpc-java:${grpc.version}</pluginArtifact>
+<!--              <pluginArtifact>com.google.protobuf:protoc:${dependency.protobuf.version}</pluginArtifact>-->
               <outputDirectory>target/generated-sources/grpc-java</outputDirectory>
             </outputTarget>
           </outputTargets>
